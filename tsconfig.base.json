@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@my-org/api-interface": ["libs/api-interface/src/index.ts"],
+      "@my-org/ui-header": ["libs/ui-header/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
